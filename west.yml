@@ -1,10 +1,13 @@
 # SPDX-License-Identifier: Apache-2.0
 
 manifest:
+  self:
+    path: modules/mpack
   remotes:
     - name: ludocode
       url-base: https://github.com/ludocode
   projects:
     - name: mpack
       remote: ludocode
+      path: modules/lib/mpack
       revision: v1.1

@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  remotes:
+    - name: ludocode
+      url-base: https://github.com/ludocode
+  projects:
+    - name: mpack
+      remote: ludocode
+      revision: v1.1
